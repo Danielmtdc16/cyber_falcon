@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../images/BackGround_Body.png");  /*Coloquei esta imagem com intuito de testar o "Header"*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #010111;
+    font-family: 'Vollkorn SC', serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: #D8AE5E;
+    display: inline-block;
+}
+
+.header {
+    background-color: #0C1F2E;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 100px;
+    width: 100%;
+    position: fixed;  
+    top: 0;
+
+}
+
+.group-one-header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.icon-menu {
+    color: #D8AE5E;
+    font-size: 35px;
+}
+
+.background-logo {
+    background-color: #4e586096;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.search {
+    background-color: #4e586096;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+::placeholder {
+    color: #D8AE5E;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 15px;
+}
+
+.links {
+    margin-right: 100px;
+}
+
+main{
+    height: 3000px; /* Este valor para o "main" é temporário, apenas para testar o "header" */
+}
