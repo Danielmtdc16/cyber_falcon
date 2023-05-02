@@ -6,10 +6,8 @@
 }
 
 body {
-    background-image: url("../images/BackGround_Body.png");  /*Coloquei esta imagem com intuito de testar o "Header"*/
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #010103;
+    
+    background-color: #070719;
     font-family: 'Vollkorn SC', serif;
     overflow-x: hidden;
 }
@@ -29,7 +27,7 @@ li {
 }
 
 .header {
-    background-color: #070719;
+    background-color: #0a0a27;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -90,5 +88,45 @@ li {
 }
 
 main {
-    height: 3000px; /* Este valor para o "main" é temporário, apenas para testar o "header" */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-body {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: 0px -70px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+    height: 250px;
+    width: 1200px;
+}
+
+.arrow {
+    color: white;
+    font-size: 70px;
+}
+
+.points {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 1200px;
+}
+
+.point {
+    border-radius: 100%;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+}
+
+.point:nth-child(1) {
+    background-color: #D8AE5E;
 }
