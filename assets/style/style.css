@@ -7,7 +7,6 @@
 }
 
 body {
-    
     background-color: #070719;
     font-family: 'Kanit', serif;
     overflow-x: hidden;
@@ -22,19 +21,19 @@ ul {
 }
 
 li {
-    color: #D8AE5E;
+    color: white;
     display: inline-block;
     font-size: 20px;
 }
 
 .header {
-    background-color: #15151B;
+    background-color: #242333;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 50px;
-    height: 100px;
+    height: 120px;
     width: 100%;
     position: fixed;  
     top: 0;
@@ -49,7 +48,7 @@ li {
 }
 
 .icon-menu {
-    color: #D8AE5E;
+    color: white;
     font-size: 35px;
 }
 
@@ -70,13 +69,14 @@ li {
     background-color: #4e586096;
     border: none;
     border-radius: 7px;
-    padding: 10px;
+    padding: 15px;
+    width: 250px;
 }
 
 ::placeholder {
-    color: #D8AE5E;
-    font-family: 'Vollkorn SC', serif;
-    font-size: 15px;
+    color: white;
+    font-family: 'kanit', serif;
+    font-size: 20px;
 }
 
 .links {
@@ -96,12 +96,12 @@ main {
 }
 
 .banner-body {
-    background-image: url('../images/banner-1.png');
+    background-image: url('../images/banner-1-version-2.png');
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10rem;
+    margin-top: 11rem;
     height: 250px;
     width: 1200px;
 }
@@ -120,12 +120,48 @@ main {
 }
 
 .point {
-    border-radius: 100%;
+    border-radius: 5px;
     background-color: white;
-    height: 15px;
-    width: 15px;
+    height: 5px;
+    width: 100px;
 }
 
 .point:nth-child(1) {
-    background-color: #D8AE5E;
+    background-color: #7041DF;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+    width: 100vw;
+    height: 500px;
+}
+
+.brands .text-brands {
+    color: white;
+    font-size: 25px;
+}
+
+.brands .cards-brands {
+    display: flex;
+    gap: 30px;
+    margin-top: 5rem;
+}
+
+.brands .cards-brands .card .img-card-brands {
+    width: 270px;
+}
+
+#logo-corsair {
+    filter: invert(100%);
+}
+
+.brands .cards-brands .card {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #15151B;
+    padding: 5px 30px;
 }
