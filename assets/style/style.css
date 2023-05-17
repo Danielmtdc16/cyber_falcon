@@ -47,11 +47,6 @@ li {
     gap: 4rem;
 }
 
-.icon-menu {
-    color: white;
-    font-size: 35px;
-}
-
 .background-logo {
     background-color: #4e586096;
     border-radius: 7px;
@@ -96,15 +91,20 @@ main {
 }
 
 .banner-body {
-    background-image: url('../images/banner-1-version-2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 11rem;
     height: 250px;
     width: 1200px;
+}
+
+@media screen and (max-width:800px) {
+    .banner-body{
+        height: 150;
+        width: 594px;
+    }
+    
 }
 
 
@@ -178,3 +178,48 @@ main {
     }
 
 }
+
+#Icon{
+    display: none;
+}
+#Icon ul{
+    display: inline-block;
+}
+
+#fechar{
+    width: 200px;
+    height: 40px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5124B;
+    color: white;
+  }
+
+  @media screen and (max-width:800px){
+    .header{
+        display: flex;
+        justify-content: center;
+        height: 180px;
+    }
+    .icon-menu {
+        color: white;
+        font-size: 35px;
+        display: block;
+    }
+
+    nav{
+    display: none;
+    }
+    
+  }
+
+  @media screen and (min-width:800px){
+    #IconButton{
+        display: none;
+    }
+    #Icon ul{
+        display: none;
+    }
+  }

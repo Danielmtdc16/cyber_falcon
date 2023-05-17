@@ -13,8 +13,21 @@
     <header class="header">
         <div class="group-one-header">
 
-            <i class="uil uil-bars icon-menu"></i>
-    
+            <div id="Icon"> 
+                    <ul class="list-links">
+                        <li><button id="fechar">X</button></li>
+                        <li class="link">Início</li>
+                        <li class="link">Promoções</li>
+                        <li class="link">Produtos</li>
+                    </ul>
+            </div>
+
+            <div id="IconButton">
+                <span class="uil uil-bars icon-menu"></span>
+            </div>
+            
+
+
             <div class="background-logo">
                 <img src="assets/images/logo-version-2.png" alt="Logo PeriBoost" class="logo">
             </div>
@@ -35,7 +48,12 @@
 
     <main>
 
-        <section class="banner-body"></section>
+        <section class="banner-body">
+            <picture>
+                <source media="(max-width:400px)" srcset="assets/images/banner_zoom" style="width: 100%;">
+                <img src="assets/images/banner-1-version-2.png" style="width: 100%;" alt="Banner">
+            </picture>
+        </section>
 
         <section class="points">
 
