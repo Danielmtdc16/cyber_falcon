@@ -47,11 +47,6 @@ li {
     gap: 4rem;
 }
 
-.icon-menu {
-    color: white;
-    font-size: 35px;
-}
-
 .background-logo {
     background-color: #4e586096;
     border-radius: 7px;
@@ -96,8 +91,6 @@ main {
 }
 
 .banner-body {
-    background-image: url('../images/banner-1-version-2.png');
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -105,6 +98,15 @@ main {
     height: 250px;
     width: 1200px;
 }
+
+@media screen and (max-width:800px) {
+    .banner-body{
+        height: 150;
+        width: 594px;
+    }
+    
+}
+
 
 .arrow {
     color: white;
@@ -135,8 +137,8 @@ main {
     align-items: center;
     flex-direction: column;
     margin-top: 6rem;
+    margin-bottom: 6rem;
     width: 100vw;
-    height: 500px;
 }
 
 .brands .text-brands {
@@ -164,4 +166,129 @@ main {
     align-items: center;
     background-color: #15151B;
     padding: 5px 30px;
+}
+
+.computer-suggestions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.text-cards-pc {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5rem;
+}
+
+.cards-pc {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.card-pc {
+    background-color: #4e586093;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 14px;
+    width: 260px;
+}
+
+.img-card-pc {
+    margin-top: -50px;
+    margin-bottom: 15px;
+    width: 180px;
+}
+
+.info-pc {
+    color: #fff;
+    font-size: 18px;
+}
+
+.price-pc {
+    color: #FFB321;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.total-price, .installments-price {
+    font-size: 18px;
+}
+
+.buy-pc {
+    background-color: #0090E1;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 15px;
+    padding: 15px 0;
+    letter-spacing: 5px;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px){
+    .cards-brands{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+}
+
+#Icon{
+    display: none;
+}
+#Icon ul{
+    display: inline-block;
+}
+
+#fechar{
+    width: 200px;
+    height: 40px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5124B;
+    color: white;
+  }
+
+  @media screen and (max-width:800px){
+    .header{
+        display: flex;
+        justify-content: center;
+        height: 180px;
+    }
+    .icon-menu {
+        color: white;
+        font-size: 35px;
+        display: block;
+    }
+
+    nav{
+    display: none;
+    }
+    
+  }
+
+  @media screen and (min-width:800px){
+    #IconButton{
+        display: none;
+    }
+    #Icon ul{
+        display: none;
+    }
+  
 }
