@@ -142,15 +142,9 @@ main {
     width: 100vw;
 }
 
-.brands .text-brands {
-    color: white;
-    font-size: 25px;
-}
-
 .brands .cards-brands {
     display: flex;
     gap: 30px;
-    margin-top: 5rem;
 }
 
 .brands .cards-brands .card .img-card-brands {
@@ -178,9 +172,9 @@ main {
     width: 100vw;
 }
 
-.text-cards-pc {
-    color: white;
-    font-size: 25px;
+.text-brands, .text-cards-pc {
+    color: #fff;
+    font-weight: 400;
     margin-bottom: 5rem;
 }
 
