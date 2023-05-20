@@ -161,11 +161,12 @@ main {
     filter: invert(100%);
 }
 
-.brands .cards-brands .card {
+.card {
     border-radius: 5px;
     display: flex;
     align-items: center;
     background-color: #15151B;
+    transition: border-color 0.3s ease;
     padding: 5px 30px;
 }
 
@@ -185,7 +186,7 @@ main {
 
 .cards-pc {
     display: flex;
-    gap: 30px;
+    gap: 100px;
     margin-bottom: 100px;
 }
 
@@ -196,6 +197,7 @@ main {
     align-items: center;
     flex-direction: column;
     padding: 15px 14px;
+    transition: border-color 0.3s ease;
     width: 260px;
 }
 
@@ -235,6 +237,40 @@ main {
     padding: 15px 0;
     letter-spacing: 5px;
     width: 100%;
+}
+
+footer {
+    background-color: #15151B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-link {
+    color: #fff;
+    font-size: 30px;
+}
+
+.text-copyright {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    color: #fff;
+    font-weight: 100;
 }
 
 @media screen and (max-width: 800px){
