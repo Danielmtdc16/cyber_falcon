@@ -9,7 +9,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 25px;
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 30px 10px;
     width: 100%;
 }
@@ -30,30 +30,53 @@ main{
 }
 
 .arrow-left, .arrow-right {
-    width: 30px;
+    width: 35px;
 }
 
 .image-product {
-    width: 200px;
+    width: 230px;
 }
 
 .second-group {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-around;
 }
 
 .image-square {
     background-color: #15151B;
     border-radius: 5px;
-    height: 60px;
-    width: 70px;
+    height: 65px;
+    width: 75px;
 }
 
 .field-info-product {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .info-product {
     color: #fff;
 }
+
+.price-and-buy-button {
+    color: #FFB321;
+    display: flex;
+    gap: 30px;
+}
+
+.spot-price {
+    margin-bottom: -5px;
+}
+
+.buy {
+    border: none;
+    border-radius: 5px;
+    background-color: #0090E1;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    width: 50%;
+}
+
