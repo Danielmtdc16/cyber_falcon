@@ -52,7 +52,7 @@ main{
 .field-info-product {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 33px;
 }
 
 .info-product {
@@ -80,3 +80,28 @@ main{
     width: 50%;
 }
 
+.methods {
+    width: 280px;
+}
+
+.consult-cep {
+    background-color: #15151B;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+}
+.consult-cep::placeholder {
+    font-size: 17px;
+}
+
+.consult {
+    background-color: #0090E1;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 11px;
+    width: 10%;
+}
